@@ -1,0 +1,9 @@
+<welcome>
+Hi! I'm Isaac, a 3rd-year University of Toronto student. I double major in Computer Science and Communication Culture Information Technology. My focus areas are cyber security and full-stack development. I have job experience as a 3D printing technician and projects to prove my capabilities. Hope you have a great time on my website.
+
+<Projects - 1>
+Penetration & Vulnerability Testing
+Fuzzing a Linux server to perform buffer overruns and identify potential vulnerabilities including Stack Smashing,
+Format Strings, SQL injections and Privilege Escalation
+Provided solutions to potential vulnerabilities by breaking through defences (red team) and researching for common attack methods
+Utilized Bash commands to navigate and manipulate Linux systems

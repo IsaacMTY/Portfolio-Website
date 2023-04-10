@@ -1,0 +1,126 @@
+main h1 {
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0px;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+main section {
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    /* border-width: 0 0 5px 0; */
+    height: 600px;
+    overflow: hidden;
+}
+
+.title_wrapper {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.word_left .title_wrapper {
+    float: left;
+    text-align: left;
+    padding: 70px 0 0 70px;
+}
+
+.word_right .title_wrapper {
+    float: right;
+    text-align: right;
+    padding: 70px 70px 0 0;
+}
+
+#learn_more_but {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: solid;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+#learn_more_but:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.word_right #learn_more_but {
+    float:right;
+}
+
+.word_left #learn_more_but {
+    float:left;
+}
+
+.highlight_wrapper {
+    width: calc(70% - 120px);
+    margin: 70px 60px;
+    max-height: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.word_left div {
+    float: right;
+}
+
+.word_right div {
+    float: left;
+}
+
+.highlight_box {
+    margin: 0 10px;
+    padding: 20px;
+    width: calc(33.3% - 20px);
+    max-height: 460px;
+    overflow: hidden;
+    display: inline-block;
+    border: solid 3px;
+    box-sizing: inherit;
+    background-color: white;
+    box-shadow: 0px 8px 19px -4px rgba(0,0,0,0.59);
+    transition: box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+
+.highlight_box:hover {
+    box-shadow: 0px 8px 30px -4px rgba(0,0,0,0.59);
+}
+
+/* .word_left .highlight_box {
+    box-shadow: -2px 2px 5px 1px #000000;
+}
+
+.word_right .highlight_box {
+    box-shadow: 2px 2px 5px 1px #000000;
+} */
+
+.highlight_box h2 {
+    font-size: 30px;
+}
+
+.highlight_box p {
+    font-size: 20px;
+}
+
+#welcome img {
+    max-height: 300px;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+#welcome p {
+    font-size: 27px;
+    padding: 0 100px;
+    text-align: left;
+    line-height: 120%;;
+}
+
+#portrait2 {
+    float: right;
+}
+#portrait4 {
+    float: left;
+}

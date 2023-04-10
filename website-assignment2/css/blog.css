@@ -1,0 +1,28 @@
+main {
+    font-family: 'Libre Baskerville', serif;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.blog_info {
+    padding: 0 70px;
+}
+
+.blog_info h2 {
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.blog_info h3 {
+    font-size: 15px;
+    line-height: 120%;
+}
+
